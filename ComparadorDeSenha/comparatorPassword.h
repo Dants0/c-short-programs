@@ -4,11 +4,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void compare(char phrase[]){
-	char message[] = "gui";
+void compare(char passwordParam[]){
+	char password[] = "gui";
 	int result;
 	
-	result = strcmp(message, phrase);
+	result = strcmp(password, passwordParam);
 	
 	if(result == 0){
 		printf("Mensagens iguais.");
@@ -16,8 +16,8 @@ void compare(char phrase[]){
 		printf("\nMensagens diferentes.");
 	}
 	
-	printf("\nFrase: %s", phrase);
-	printf("\nMensagem original: %s", message);
+	printf("\nSenha: %s", passwordParam);
+	printf("\nSenha original: %s", password);
 }
 
 #define comparatorPassword
