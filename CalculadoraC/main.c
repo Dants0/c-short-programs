@@ -8,17 +8,17 @@ float a, b;
 int main(){
 	setlocale(LC_ALL,"portuguese");
 	
-	printf("Num_1: ");
+	printf("Num_1:");
 	scanf("%f", &a);
-	printf("\nNum_2: ");
+	printf("Num_2:");
 	scanf("%f", &b);
 	
-	printf("%.2f\n", add(a,b));
-	printf("%.2f\n", sub(a,b));
-	printf("%.2f\n", mult(a,b));
-	printf("%.2f\n", division(a,b));
+	printf("--------------------------------\n");
 	
-	printf("Finish");
+	printf("Soma: %.2f\n", add(a,b));
+	printf("Subtração: %.2f\n", sub(a,b));
+	printf("Multiplicação: %.2f\n", mult(a,b));
+	printf("Divisão: %.2f", division(a,b));
 	
 	return 0;
 }
