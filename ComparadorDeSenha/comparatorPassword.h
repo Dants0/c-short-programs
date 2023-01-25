@@ -11,9 +11,9 @@ void compare(char passwordParam[]){
 	result = strcmp(password, passwordParam);
 	
 	if(result == 0){
-		printf("Mensagens iguais.");
+		printf("Senhas iguais.");
 	}else{
-		printf("\nMensagens diferentes.");
+		printf("\nSenhas diferentes.");
 	}
 	
 	printf("\nSenha: %s", passwordParam);
